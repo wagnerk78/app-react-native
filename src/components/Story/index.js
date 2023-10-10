@@ -1,4 +1,5 @@
 /* eslint-disable prettier/prettier */
+/* eslint-disable no-alert */
 /* eslint-disable eol-last */
 import React from 'react';
 import { Touchable, Cover, Text, Box } from '../../components/index.js';

@@ -6,7 +6,7 @@ import Story from './index.js';
 
 const StoryList = () => {
   return (
-  <Box fluid>
+  <Box fluid height="270px">
     <Box row fluid justify="space-between" height="60px" hasPadding>
     <Text bold color="dark">Stories</Text>
     <Text color="danger">Show All</Text>

@@ -110,7 +110,7 @@ export const ScrollView = styled.ScrollView.attrs({
   showsverticalScrollIndicator: false,
   })`
   padding: ${props => (props.hasPadding ? '20px' : '0')};
-  flex: ${props => (props.height? 'none' : 1)};
+  flex: ${props => (props.height ? 'none' : 1)};
   width: ${props => (props.fluid ? '100%' : 'auto')};
   height: ${props => props.height || 'auto'};
   background: ${props =>
