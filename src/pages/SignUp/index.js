@@ -4,7 +4,7 @@
 import React from 'react';
 import {Title, Box, Text, Button, Spacer, Input} from '../../components/index.js';
 
-const SignUp = () => {
+const SignUp = ({navigation}) => {
   return (
     <Box justify="center" hasPadding align="center" background="light">
       <Title bold>Create new account.</Title>
@@ -21,7 +21,7 @@ const SignUp = () => {
         <Text color="light">Create new account</Text>
       </Button>
       <Spacer size="40px"/>
-      <Text onPress={() => alert('teste')}>Back to signIn</Text>
+      <Text  onPress={() => navigation.navigate('SignIn')}>Back to signIn</Text>
 
 
     </Box>
